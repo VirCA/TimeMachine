@@ -1,0 +1,31 @@
+material 1401794937_1_Hubble-Discovers-Dead-Stars-with-Planetary-Debris
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0941176470588235 0.0980392156862745 0.105882352941176
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.7 0.7 0.7
+      // texture size: 153.543307086614, 59.0551181102362
+      texture_unit
+      {
+        texture 1401794937_1_Hubble-Discovers-Dead-Stars-with-Planetary-Debris.jpg
+      }
+    }
+  }
+}
+material 1401794937_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

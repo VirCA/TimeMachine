@@ -1,0 +1,250 @@
+material 1401719623_1_<Beige>1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.172549019607843 0.576470588235294 0.933333333333333
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.3 0.3 0.3
+    }
+  }
+}
+material 1401719623_2_Color_005
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.447058823529412 0.447058823529412 0.447058823529412
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_3_<Gray6>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.376470588235294 0.376470588235294 0.376470588235294
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_4_Color_006
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.337254901960784 0.337254901960784 0.337254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_5_<DeepSkyBlue>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.458823529411765 0.925490196078431 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_6_Material1
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0 0.0
+      specular 0.0 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61 1.0
+      // texture size: 24.0, 24.0
+      texture_unit
+      {
+        texture 1401719623_1_Translucent_Glass_Tinted.jpg
+      }
+    }
+  }
+}
+material 1401719623_7_0128_White
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_8_<Black>6
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.466666666666667 0.466666666666667 0.466666666666667
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_9_Gray6
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.376470588235294 0.376470588235294 0.376470588235294
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_10_Translucent_Glass_Gold
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.8
+      diffuse 0.556862745098039 0.556862745098039 0.0549019607843137 0.8
+      specular 0.0 0.0 0.0 0.8 0.0
+      emissive 0.87 0.87 0.87 1.0
+      // texture size: 24.0, 24.0
+      texture_unit
+      {
+        texture 1401719623_2_Translucent_Glass_Tinted.jpg
+      }
+    }
+  }
+}
+material 1401719623_11_walls
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.92156862745098 0.87843137254902 0.772549019607843
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_12_<Black>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 1.0 1.0 1.0
+    }
+  }
+}
+material 1401719623_13_<Gray5>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.529411764705882 0.529411764705882 0.529411764705882
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_14_0137_Black
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.2 0.4 0.77
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.1 0.1 0.1
+    }
+  }
+}
+material 1401719623_15_<Black>7
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.258823529411765 0.258823529411765 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.11 0.11 0.11
+    }
+  }
+}
+material 1401719623_16_<0137_Black>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_17_0056_Yellow
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.698039215686274 0.698039215686274 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1401719623_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

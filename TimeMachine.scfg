@@ -1,0 +1,25 @@
+<virca version="0.2.x" room="TimeMachine" desc="TimeMachine room settings">
+	<light>
+		<ambientcolor r="0.35" g="0.35" b="0.35"/>
+		<shadow quality="2048" type="DAVE" lightCount="4"/> <!--quality (shadow texture size): '2048', '1024', '512', '256'--> <!--type: 'DepthShadowMap' ; 'DAVE' ; 'RTSS_NOSHADOW'--> <!--lightCount: '0-8'-->
+	</light>
+	<pointer length="180" mindistancefromwall="26">
+		<origin x="0" y="200" z="-700"/>
+		<direction pitch="17" yaw="90"/>
+	</pointer>
+	<physlimits>
+		<xlimit min="-105000" max="105000"/>
+		<ylimit min="-100000" max="150000"/> <!--height-->
+		<zlimit min="-75000" max="75000"/>
+	</physlimits>
+	<camera name="defaultCamera" init_mode="1" fov="45" p3dwalldistanceoverhead="30">
+		<position x="0" y="200" z="-700"/>
+		<rotation qx="0" qy="0" qz="0" qw="1"/>
+		<clipping near="1" far="100000"/>
+	</camera>
+	<browser>
+	<!--<homepage url="192.168.1.1:8080/rtmext/rtcse/index.html"/>-->
+		<homepage url="127.0.0.1:8080/vircaeditor/VirCASystemEditor/index.html"/>
+	<!--<homepage url="172.29.1.1:8080/rtmext/rtcse/index.html"/>-->
+	</browser>
+</virca>

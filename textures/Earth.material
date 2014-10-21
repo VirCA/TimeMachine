@@ -1,0 +1,31 @@
+material 1401787461_1_earthmap
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.623529411764706 0.627450980392157 0.666666666666667
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.3 0.3 0.3
+      // texture size: 358.334125491983, 179.167062745991
+      texture_unit
+      {
+        texture 1401787461_1_earthmap.jpg
+      }
+    }
+  }
+}
+material 1401787461_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

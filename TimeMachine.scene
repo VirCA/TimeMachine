@@ -1,0 +1,152 @@
+<scene formatVersion="1.0" upAxis="y">
+	<nodes>
+		<node name="deepspacenine" >
+			<position x="6800" y="-2060" z="4300" />
+			<scale x="0.03" y="0.03" z="0.03" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="deepspacenine" castShadows="true" physicsType="ghost" meshFile="deepspacenine.mesh"/>
+		</node>
+		<node name="LightSource4" >
+			<light name="LightSource4" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="6800" y="3000" z="4300" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="7000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>		
+		<node name="superGate" >
+			<position x="-6800" y="-2060" z="4300" />
+			<scale x="0.2" y="0.2" z="0.2" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="superGate" castShadows="true" physicsType="ghost" meshFile="superGate.mesh"/>
+		</node>		
+		<node name="OriShip" >
+			<position x="-4800" y="-2060" z="4300" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="0.7071" x="0" y="0.7071" z="0" />
+			<entity name="OriShip" castShadows="true" physicsType="ghost" meshFile="OriShip.mesh"/>
+		</node>	
+		<node name="stargate_new" >
+			<position x="2800" y="206" z="-2300" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="0.7071" x="0" y="0.7071" z="0" />
+			<entity name="stargate_new" castShadows="true" physicsType="ghost" meshFile="stargate_new.mesh"/>
+		</node>
+		<!--<node name="lantien" >
+			<position x="-370" y="250" z="-1085" />
+			<scale x="1" y="0.8" z="1" />
+			<rotation w="0.7071" x="0" y="0.7071" z="0" />
+			<entity name="lantien" castShadows="true" physicsType="ghost"  meshFile="lantien.mesh"/>
+		</node>-->	
+		<node name="explode" >
+			<position x="300" y="515" z="-4000" />
+			<scale x="2" y="2" z="2" />
+			<rotation w="0" x="0" y="1" z="0" />
+			<entity name="explode" castShadows="true" physicsType="ghost"  meshFile="explode.mesh"/>
+		</node>	
+		<node name="jumper" >
+			<position x="950" y="-100" z="-400" />
+			<scale x="0.5" y="0.5" z="0.5" />
+			<rotation w="0" x="0" y="1" z="0" />
+			<entity name="jumper" castShadows="true" meshFile="jumper.mesh"/>
+		</node>
+		<node name="jumper2" >
+			<position x="950" y="-100" z="400" />
+			<scale x="0.5" y="0.5" z="0.5" />
+			<rotation w="0" x="0" y="1" z="0" />
+			<entity name="jumper2" castShadows="true" meshFile="jumper.mesh"/>
+		</node>	
+		<node name="jumper3" >
+			<position x="950" y="-100" z="-600" />
+			<scale x="0.5" y="0.5" z="0.5" />
+			<rotation w="0" x="0" y="1" z="0" />
+			<entity name="jumper3" castShadows="true" meshFile="jumper.mesh"/>
+		</node>		
+		<node name="quasar" >
+			<position x="6000" y="-1000" z="-6000" />
+			<scale x="0.5" y="0.5" z="0.5" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="quasar" castShadows="true" meshFile="quasar.mesh"/>
+		</node>		
+		<!--<node name="screen" >
+			<position x="0" y="250" z="-1320" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="screen" castShadows="true" meshFile="screen2.mesh"/>
+		</node>-->
+		<node name="earth" >
+			<position x="320" y="170" z="-1150" />
+			<scale x="0.0002" y="0.0002" z="0.0002" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="earth" castShadows="true" physicsType="ghost" meshFile="Earth.mesh"/>
+		</node>		
+		<node name="mars" >
+			<position x="420" y="230" z="-1050" />
+			<scale x="0.0002" y="0.0002" z="0.0002" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="mars" castShadows="true" physicsType="ghost" meshFile="mars.mesh"/>
+		</node>	
+		<node name="venus" >
+			<position x="320" y="210" z="-1000" />
+			<scale x="0.0002" y="0.0002" z="0.0002" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="venus" castShadows="true" physicsType="ghost" meshFile="venus.mesh"/>
+		</node>			
+		<node name="jupiter" >
+			<position x="520" y="240" z="-1000" />
+			<scale x="0.0002" y="0.0002" z="0.0002" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="jupiter" castShadows="true" physicsType="ghost" meshFile="Jupiter1.mesh"/>
+		</node>		
+		<node name="TimeMachine" >
+			<position x="0" y="0" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="TimeMachine" castShadows="true" meshFile="TimeMachine.mesh"/>
+		</node>	
+		<node name="LightSource1" >
+			<light name="LightSource1" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="1100" y="1500" z="0" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2100" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>
+		<node name="LightSource2" >
+			<light name="LightSource2" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="0" y="1100" z="-900" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2100" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>
+		<node name="LightSource3" >
+			<light name="LightSource3" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="-778" y="1500" z="778" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2100" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>	
+		<node name="Browser0" >
+			<position x="0" y="250" z="-1320" />
+			<rotation x="0.000000" y="0.000000" z="0.000000" w="1.000000" />
+			<browser isShared="false" width="400" height="225" isDraggable="false" isSnap2Wall="true" url="virca.hu" zoom="0">
+			</browser>
+		</node>
+		<node name="Browser1" >
+			<position x="-370" y="250" z="-1085" />
+			<rotation w="0.7071" x="0" y="0.7071" z="0" />
+			<browser isShared="false" width="400" height="225" isDraggable="false" isSnap2Wall="true" url="virca.hu/scenarios/UNIKL/" zoom="0">
+			</browser>
+		</node>			
+	</nodes>
+</scene>

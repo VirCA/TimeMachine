@@ -1,0 +1,175 @@
+material 1401881223_1_Material6
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 250.155539772727, 187.75
+      texture_unit
+      {
+        texture 1401881223_4_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_2_<Gold>4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.266666666666667 0.266666666666667 0.266666666666667
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 11811.02362205, 11811.02362205
+      texture_unit
+      {
+        texture 1401881223_2_dark.jpg
+      }
+    }
+  }
+}
+material 1401881223_3_Material80
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 241.8125, 186.8125
+      texture_unit
+      {
+        texture 1401881223_3_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_4_Material7
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.258823529411765 0.243137254901961 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 660.6875, 660.6875
+      texture_unit
+      {
+        texture 1401881223_5_rough-panels2.jpg
+      }
+    }
+  }
+}
+material 1401881223_5_Material44
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 252.8125, 189.744136460554
+      texture_unit
+      {
+        texture 1401881223_6_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_6_Material46
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 239.125, 179.471215351812
+      texture_unit
+      {
+        texture 1401881223_7_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_7_Material31
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 253.125, 189.97867803838
+      texture_unit
+      {
+        texture 1401881223_9_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_8_Material10
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.203921568627451 0.227450980392157 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 262.125, 196.733475479744
+      texture_unit
+      {
+        texture 1401881223_8_stargate2.jpg
+      }
+    }
+  }
+}
+material 1401881223_9_Material13
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.258823529411765 0.243137254901961 0.258823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 708.6614173228, 708.6614173228
+      texture_unit
+      {
+        texture 1401881223_1_rough-panels2.jpg
+      }
+    }
+  }
+}
+material 1401881223_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+    }
+  }
+}

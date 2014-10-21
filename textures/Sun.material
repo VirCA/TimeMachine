@@ -1,0 +1,31 @@
+material 1401786487_1_suncyl1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.964705882352941 0.423529411764706 0.0352941176470588
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.7 0.7 0.7
+      // texture size: 72.4281950101043, 36.2140975050522
+      texture_unit
+      {
+        texture 1401786487_1_suncyl1.jpg
+      }
+    }
+  }
+}
+material 1401786487_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

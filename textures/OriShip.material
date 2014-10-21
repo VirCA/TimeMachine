@@ -1,0 +1,153 @@
+material 1401883808_1_[Translucent_Glass_Blue]2
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.5
+      diffuse 0.392156862745098 0.584313725490196 0.929411764705882 0.5
+      specular 0.0 0.0 0.0 0.5 0.0
+      emissive 0.61 0.61 0.61 1.0
+    }
+  }
+}
+material 1401883808_2_Material53
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.525490196078431 0.517647058823529 0.533333333333333
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 393.700787401575, 393.700787401575
+      texture_unit
+      {
+        texture 1401883808_3_Metal_Rough.jpg
+      }
+    }
+  }
+}
+material 1401883808_3_Material9_copy12
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.513725490196078 0.505882352941176 0.52156862745098
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 393.700787401575, 393.700787401575
+      texture_unit
+      {
+        texture 1401883808_4_metal_rusted_grey.jpg
+      }
+    }
+  }
+}
+material 1401883808_4_Translucent_Glass_Sky_Reflection
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.792156862745098 0.972549019607843 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 360.0, 360.0
+      texture_unit
+      {
+        texture 1401883808_2_Translucent_Glass_Sky_Reflection_.jpg
+      }
+    }
+  }
+}
+material 1401883808_5_Material9_copy2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.725490196078431 0.717647058823529 0.737254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 468.8125, 468.8125
+      texture_unit
+      {
+        texture 1401883808_1_metal_rusted_grey.jpg
+      }
+    }
+  }
+}
+material 1401883808_6_<Brown>1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0745098039215686 0.0784313725490196 0.0705882352941176
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 120.0, 120.0
+      texture_unit
+      {
+        texture 1401883808_5_2.JPG
+      }
+    }
+  }
+}
+material 1401883808_7_Material9_copy1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.137254901960784 0.137254901960784 0.137254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 236.220472440945, 236.220472440945
+      texture_unit
+      {
+        texture 1401883808_6_metal_rusted_grey.jpg
+      }
+    }
+  }
+}
+material 1401883808_8_Translucent_Glass_Blue
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.0
+      diffuse 0.392156862745098 0.584313725490196 0.929411764705882 0.0
+      specular 0.0 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61 1.0
+    }
+  }
+}
+material 1401883808_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+    }
+  }
+}

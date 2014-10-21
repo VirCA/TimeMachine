@@ -1,0 +1,34 @@
+material 1401880375_1_Material7
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.65
+      diffuse 0.0117647058823529 0.243137254901961 0.305882352941176 0.65
+      specular 0.0 0.0 0.0 0.65 0.0
+      emissive 0.57 0.57 0.57 1.0
+      // texture size: 120.0, 90.0
+      texture_unit
+      {
+        texture 1401880375_1_Lantean_scr_6.bmp
+      }
+    }
+  }
+}
+material 1401880375_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

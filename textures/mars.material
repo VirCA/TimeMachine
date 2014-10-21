@@ -1,0 +1,31 @@
+material 1401798471_1_mars1_src
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.474509803921569 0.317647058823529 0.294117647058824
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.47 0.47 0.47
+      // texture size: 298.462965947051, 149.231482973526
+      texture_unit
+      {
+        texture 1401798471_1_mars1_src.jpg
+      }
+    }
+  }
+}
+material 1401798471_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

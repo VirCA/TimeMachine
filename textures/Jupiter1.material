@@ -1,0 +1,31 @@
+material 1401785343_1_jupitercyl2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.788235294117647 0.588235294117647 0.427450980392157
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.3 0.3 0.3
+      // texture size: 245.587366169217, 122.793683084608
+      texture_unit
+      {
+        texture 1401785343_1_jupitercyl2.jpg
+      }
+    }
+  }
+}
+material 1401785343_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

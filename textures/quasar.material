@@ -1,0 +1,132 @@
+material 1401796458_1_Color_H05
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.88
+      diffuse 0.556862745098039 0.698039215686274 0.698039215686274 0.88
+      specular 0.0 0.0 0.0 0.88 0.0
+      emissive 0.51 0.51 0.51 1.0
+    }
+  }
+}
+material 1401796458_2_Color_H04
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.84
+      diffuse 0.6 1.0 1.0 0.84
+      specular 0.0 0.0 0.0 0.84 0.0
+      emissive 0.51 0.51 0.51 1.0
+    }
+  }
+}
+material 1401796458_3_lava-texture
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.976470588235294 0.725490196078431 0.298039215686275
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.7 0.7 0.7
+      // texture size: 509.842519685039, 509.842519685039
+      texture_unit
+      {
+        texture 1401796458_1_lava-texture.jpg
+      }
+    }
+  }
+}
+material 1401796458_4_[Color_H05]1
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.84
+      diffuse 0.8 1.0 1.0 0.84
+      specular 0.0 0.0 0.0 0.84 0.0
+      emissive 0.51 0.51 0.51 1.0
+    }
+  }
+}
+material 1401796458_5_[Color_H05]2
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.57
+      diffuse 0.8 1.0 1.0 0.57
+      specular 0.0 0.0 0.0 0.57 0.0
+      emissive 0.51 0.51 0.51 1.0
+    }
+  }
+}
+material 1401796458_6_Color_H03
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.69
+      diffuse 0.396078431372549 1.0 1.0 0.69
+      specular 0.0 0.0 0.0 0.69 0.0
+      emissive 0.51 0.51 0.51 1.0
+    }
+  }
+}
+material 1401796458_7_misc_bg_element_png_by_dbszabo1-d55asds
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.97
+      diffuse 0.603921568627451 0.450980392156863 0.607843137254902 0.97
+      specular 0.0 0.0 0.0 0.97 0.0
+      emissive 0.51 0.51 0.51 1.0
+      // texture size: 2598.62112949477, 2636.75603076618
+      texture_unit
+      {
+        texture 1401796458_2_misc_bg_element_png_by_dbszabo1-d55asds.png
+      }
+    }
+  }
+}
+material 1401796458_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

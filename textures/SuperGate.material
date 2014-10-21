@@ -1,0 +1,83 @@
+material 1401884631_1_Metal_Rough
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.6 0.615686274509804 0.627450980392157
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 33.0, 33.0
+      texture_unit
+      {
+        texture 1401884631_1_Metal_Rough.jpg
+      }
+    }
+  }
+}
+material 1401884631_2_1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.513725490196078 0.564705882352941 0.650980392156863
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+      // texture size: 118.760912533755, 118.997960263363
+      texture_unit
+      {
+        texture 1401884631_2_1.jpg
+      }
+    }
+  }
+}
+material 1401884631_3_Translucent_Glass_Sky_Reflection
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.35
+      diffuse 0.0 0.654901960784314 1.0 0.35
+      specular 0.0 0.0 0.0 0.35 0.0
+      emissive 0.61 0.61 0.61 1.0
+      // texture size: 103.0, 103.0
+      texture_unit
+      {
+        texture 1401884631_3_Translucent_Glass_Sky_Reflection_.jpg
+      }
+    }
+  }
+}
+material 1401884631_4_Color_009
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.109803921568627 0.109803921568627 0.109803921568627
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+    }
+  }
+}
+material 1401884631_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.61 0.61 0.61
+    }
+  }
+}

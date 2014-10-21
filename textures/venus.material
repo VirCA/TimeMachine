@@ -1,0 +1,31 @@
+material 1401799067_1_venus4_rgb_cyl_www
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.556862745098039 0.290196078431373 0.0823529411764706
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.4 0.4 0.4
+      // texture size: 193.024593102801, 96.5122965514005
+      texture_unit
+      {
+        texture 1401799067_1_venus4_rgb_cyl_www.jpg
+      }
+    }
+  }
+}
+material 1401799067_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
